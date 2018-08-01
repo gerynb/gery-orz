@@ -3,8 +3,8 @@ $(document).ready(function(){
 	$("#gery").click(function(){
 		++cc;
 		if(cc>=3){
-			document.getElementById('gery').innerHTML='<img src="images/gerysj.jpg" id="gery" width="30%" alt="Gery冒金光" />';
-			document.getElementById('nb').innerHTML='妙妙妙';
+			$("#gery").html('<img src="images/gerysj.jpg" id="gery" width="30%" alt="Gery冒金光" />');
+			$("#nb").html('妙妙妙');
 		}
 	});
 });
